@@ -1,10 +1,3 @@
-<style>
-ul {
-    list-style-type: none;
-    margin-left: 2px;
-}
-</style>
-
 <a name="contents">Contents</a>
 ====================================================
   * [Install AWS CLI](#aws-cli)
