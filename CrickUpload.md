@@ -33,7 +33,6 @@ ${AWS_PATH}/v2/current/bin/aws s3 sync /path/to/gs_data s3://eliptica-gs-data/
 rm -Rf ${AWS_PATH}
 ```
 
-
 <a name="aws-eliptica">Eliptica preparation steps</a>
 ----------------------------------------------------
 On our part we need to
@@ -42,6 +41,7 @@ On our part we need to
  * Create a S3 bucket 
    * `s3://eliptica-gs-data`
    * ObjectLock is enabled but we need to lock the data after upload
+   * Configure S3 Inteligent Teering (Day 0)
  * Create AWS cli synchronization policy
    * Policy `Policy_S3_Sync_eliptica-gs-data`
    * Group `Group_S3_Sync_eliptica-gs-data`
